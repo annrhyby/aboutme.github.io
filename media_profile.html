@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+
+<title>Ainur's Profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://w2ui.com/src/w2ui-1.4.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-1.4.2.min.css" />
+<style type="text/css">
+    	body{margin-top:20px;
+background:#eee;
+}
+.fs35 {
+    font-size: 35px !important;
+}
+
+.mw50 {
+    max-width: 50px !important;
+}
+.mn {
+    margin: 0 !important;
+}
+.mw140 {
+    max-width: 140px !important;
+}
+.mw120 {
+    max-width: 70% !important;
+    border: 2px #000000 solid;
+}
+.mb20 {
+    margin-bottom: 20px !important;
+}
+.mr25 {
+    margin-right: 25px !important;
+}
+
+.mw40 {
+    max-width: 40px !important;
+}
+
+.p30 {
+    padding: 30px !important;
+}
+
+.page-heading {
+  position: relative;
+  padding: 30px 40px;
+  margin: -25px -20px 25px;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #f2f2f2;
+}
+.page-tabs {
+  margin: -25px -20px 30px;
+  padding: 15px 25px 0;
+  border-bottom: 1px solid #ddd;
+  background: #e9e9e9;
+}
+.page-tabs .nav-tabs {
+  border-bottom: 0;
+}
+.page-tabs .nav-tabs > li > a {
+  color: #AAA;
+  padding: 10px 20px;
+}
+.page-tabs .nav-tabs > li:hover > a,
+.page-tabs .nav-tabs > li:focus > a {
+  border-color: #ddd;
+}
+.page-tabs .nav-tabs > li.active > a,
+.page-tabs .nav-tabs > li.active > a:hover,
+.page-tabs .nav-tabs > li.active > a:focus {
+  color: #666;
+  font-weight: 600;
+  background-color: #eee;
+  border-bottom-color: transparent;
+}
+@media (max-width: 800px) {
+  .page-tabs {
+    padding: 25px 20px 0;
+  }
+  .page-tabs .nav-tabs li {
+    float: none;
+    margin-bottom: 5px;
+  }
+  .page-tabs .nav-tabs li:last-child,
+  .page-tabs .nav-tabs li.active:last-child {
+    margin-bottom: 10px;
+  }
+  .page-tabs .nav-tabs > li > a:hover,
+  .page-tabs .nav-tabs > li > a:focus {
+    border: 1px solid #DDD;
+  }
+  .page-tabs .nav-tabs > li.active > a,
+  .page-tabs .nav-tabs > li.active > a:hover,
+  .page-tabs .nav-tabs > li.active > a:focus {
+    border-bottom-color: #ddd;
+  }
+}
+.panel {
+  position: relative;
+  margin-bottom: 27px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+.panel.panel-transparent {
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.panel.panel-border {
+  border-style: solid;
+  border-width: 0;
+}
+.panel.panel-border.top {
+  border-top-width: 5px;
+}
+.panel.panel-border.right {
+  border-right-width: 5px;
+}
+.panel.panel-border.bottom {
+  border-bottom-width: 5px;
+}
+.panel.panel-border.left {
+  border-left-width: 5px;
+}
+.panel.panel-border > .panel-heading {
+  background-color: #fafafa;
+  border-color: #e2e2e2;
+  border-top: 1px solid transparent;
+}
+.panel.panel-border > .panel-heading > .panel-title {
+  color: #999999;
+}
+.panel.panel-border.panel-default {
+  border-color: #DDD;
+}
+.panel.panel-border.panel-default > .panel-heading {
+  border-top: 1px solid transparent;
+}
+.panel-menu {
+  background-color: #fafafa;
+  padding: 12px;
+  border: 1px solid #e2e2e2;
+}
+.panel-menu.dark {
+  background-color: #f8f8f8;
+}
+.panel-body .panel-menu {
+  border-left: 0;
+  border-right: 0;
+}
+.panel-heading + .panel-menu,
+.panel-menu + .panel-body,
+.panel-body + .panel-menu,
+.panel-body + .panel-body {
+  border-top: 0;
+}
+.panel-body {
+  position: relative;
+  padding: 15px;
+  border: 1px solid #e2e2e2;
+}
+.panel-body + .panel-footer {
+  border-top: 0;
+}
+.panel-heading {
+  position: relative;
+  height: 52px;
+  line-height: 49px;
+  letter-spacing: 0.2px;
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 8px;
+  background: #fafafa;
+  border: 1px solid #e2e2e2;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.panel-heading + .panel-body {
+  border-top: 0;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.panel-heading .widget-menu .btn-group {
+  margin-top: -3px;
+}
+.panel-heading .widget-menu .form-control {
+  margin-top: 6px;
+  font-size: 11px;
+  height: 27px;
+  padding: 2px 10px;
+  border-radius: 1px;
+}
+.panel-heading .widget-menu .form-control.input-sm {
+  margin-top: 9px;
+  height: 22px;
+}
+.panel-heading .widget-menu .progress {
+  margin-top: 11px;
+  margin-bottom: 0;
+}
+.panel-heading .widget-menu .progress-bar-lg {
+  margin-top: 10px;
+}
+.panel-heading .widget-menu .progress-bar-sm {
+  margin-top: 15px;
+}
+.panel-heading .widget-menu .progress-bar-xs {
+  margin-top: 17px;
+}
+.panel-icon {
+  padding-left: 5px;
+}
+.panel-title {
+  padding-left: 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.panel-title > .fa,
+.panel-title > .glyphicon,
+.panel-title > .glyphicons,
+.panel-title > .imoon {
+  top: 2px;
+  min-width: 22px;
+  color: inherit;
+  font-size: 14px;
+}
+.panel-title > a {
+  color: inherit;
+}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #fafafa;
+  border: 1px solid #e2e2e2;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.panel > .list-group {
+  margin-bottom: 0;
+}
+.panel > .list-group .list-group-item {
+  border-radius: 0;
+}
+.panel > .list-group:first-child .list-group-item:first-child {
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.panel > .list-group:last-child .list-group-item:last-child {
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+.panel-body + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+.list-group + .panel-footer {
+  border-top-width: 0;
+}
+.panel > .table,
+.panel > .table-responsive > .table,
+.panel > .panel-collapse > .table {
+  margin-bottom: 0;
+}
+.panel > .table:first-child,
+.panel > .table-responsive:first-child > .table:first-child {
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+  border-top-left-radius: 2px;
+}
+.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+  border-top-right-radius: 2px;
+}
+.panel > .table:last-child,
+.panel > .table-responsive:last-child > .table:last-child {
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+  border-bottom-left-radius: 2px;
+}
+.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+  border-bottom-right-radius: 2px;
+}
+.panel > .panel-body + .table,
+.panel > .panel-body + .table-responsive {
+  border-top: 1px solid #eeeeee;
+}
+.panel > .table > tbody:first-child > tr:first-child th,
+.panel > .table > tbody:first-child > tr:first-child td {
+  border-top: 0;
+}
+.panel > .table-bordered,
+.panel > .table-responsive > .table-bordered {
+  border: 0;
+}
+.panel > .table-bordered > thead > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.panel > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-bordered > thead > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.panel > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-bordered > tfoot > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+.panel > .table-bordered > thead > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.panel > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-bordered > thead > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.panel > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-bordered > tfoot > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+.panel > .table-bordered > thead > tr:first-child > td,
+.panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+.panel > .table-bordered > tbody > tr:first-child > td,
+.panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+.panel > .table-bordered > thead > tr:first-child > th,
+.panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+.panel > .table-bordered > tbody > tr:first-child > th,
+.panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
+  border-bottom: 0;
+}
+.panel > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-bordered > tfoot > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+.panel > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-bordered > tfoot > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+  border-bottom: 0;
+}
+.panel > .table-responsive {
+  border: 0;
+  margin-bottom: 0;
+}
+.panel-group {
+  margin-bottom: 19px;
+}
+.panel-group .panel-title {
+  padding-left: 0;
+}
+.panel-group .panel-heading,
+.panel-group .panel-heading a {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.panel-group.accordion-lg .panel + .panel {
+  margin-top: 12px;
+}
+.panel-group.accordion-lg .panel-heading {
+  font-size: 14px;
+  height: 54px;
+  line-height: 52px;
+}
+.panel-group .accordion-icon {
+  padding-left: 35px;
+}
+.panel-group .accordion-icon:after {
+  position: absolute;
+  content: "\f068";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  color: #555;
+  left: 10px;
+  top: 0;
+}
+.panel-group .accordion-icon.collapsed:after {
+  content: "\f067";
+}
+.panel-group .accordion-icon.icon-right {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.panel-group .accordion-icon.icon-right:after {
+  left: auto;
+  right: 5px;
+}
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 3px;
+}
+.panel-group .panel + .panel {
+  margin-top: 5px;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: 0;
+}
+.panel-group .panel-footer {
+  border-top: 0;
+}
+.panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+.media {
+  color: #999999;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.media:first-child {
+  margin-top: 0;
+}
+.media-right,
+.media > .pull-right {
+  padding-left: 10px;
+}
+.media-left,
+.media > .pull-left {
+  padding-right: 10px;
+}
+.media-left,
+.media-right,
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+.media-middle {
+  vertical-align: middle;
+}
+.media-bottom {
+  vertical-align: bottom;
+}
+.media-heading {
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-weight: 100;
+}
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+/*===============================================
+  Tabs
+================================================= */
+/* Tabs Wrapper */
+.tab-block {
+  position: relative;
+}
+/* Tabs Content */
+.tab-block .tab-content {
+  overflow: auto;
+  position: relative;
+  z-index: 10;
+  min-height: 125px;
+  padding: 16px 12px;
+  border: 1px solid #e2e2e2;
+  background-color: #FFF;
+}
+/*===============================================
+  Tab Navigation
+================================================= */
+.tab-block .nav-tabs {
+  position: relative;
+  border: 0;
+}
+/* nav tab item */
+.tab-block .nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+/* nav tab link */
+.tab-block .nav-tabs > li > a {
+  z-index: 9;
+  position: relative;
+  color: #AAA;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 14px 20px;
+  margin-right: -1px;
+  border-color: #e2e2e2;
+  border-radius: 0;
+  background: #fafafa;
+}
+.tab-block .nav-tabs > li:first-child > a {
+  margin-left: 0;
+}
+/* nav tab link:hover */
+.tab-block .nav-tabs > li > a:hover {
+  background-color: #f4f4f4;
+}
+/* nav tab active link:focus:hover */
+.tab-block .nav-tabs > li.active > a,
+.tab-block .nav-tabs > li.active > a:hover,
+.tab-block .nav-tabs > li.active > a:focus {
+  cursor: default;
+  position: relative;
+  z-index: 12;
+  color: #555555;
+  background: #FFF;
+  border-color: #e2e2e2;
+  border-bottom: 1px solid #FFF;
+}
+/*===============================================
+  Tab Navigation - Tabs Left
+================================================= */
+.tabs-left {
+  float: left;
+}
+/* nav tab item */
+.tabs-left > li {
+  float: none;
+  margin: 0 -1px -1px 0;
+}
+/* nav tab item link */
+.tabs-left > li > a {
+  padding: 14px 16px;
+  color: #777;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-color: #DDD;
+  background: #fafafa;
+}
+/* nav tab link:hover */
+/* nav tab active link:focus:hover */
+.tab-block .tabs-left > li.active > a,
+.tab-block .tabs-left > li.active > a:hover,
+.tab-block .tabs-left > li.active > a:focus {
+  color: #555;
+  border-color: #DDD #FFF #DDD #DDD;
+  cursor: default;
+  position: relative;
+  z-index: 12;
+  background: #FFF;
+}
+/*===============================================
+  Tab Navigation - Tabs Right
+================================================= */
+.tabs-right {
+  float: right;
+}
+/* nav tab item */
+.tabs-right > li {
+  float: none;
+  margin: 0 0 -1px -1px;
+}
+/* nav tab item link */
+.tabs-right > li > a {
+  padding: 14px 16px;
+  color: #777;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-color: #DDD;
+  background: #fafafa;
+}
+/* nav tab link:hover */
+/* nav tab active link:focus:hover */
+.tab-block .tabs-right > li.active > a,
+.tab-block .tabs-right > li.active > a:hover,
+.tab-block .tabs-right > li.active > a:focus {
+  color: #555;
+  border-color: #DDD #DDD #DDD #FFF;
+  cursor: default;
+  position: relative;
+  z-index: 12;
+  background: #FFF;
+}
+/*===============================================
+  Tab Navigation - Tabs Right
+================================================= */
+.tabs-below {
+  position: relative;
+}
+/* nav tab item */
+.tabs-below > li {
+  float: left;
+  margin-top: -1px;
+}
+/* nav tab item link */
+.tabs-below > li > a {
+  position: relative;
+  z-index: 9;
+  margin-right: -1px;
+  padding: 11px 16px;
+  color: #777;
+  font-weight: 600;
+  border: 1px solid #DDD;
+  background: #fafafa;
+}
+/* nav tab link:hover */
+/* nav tab active link:focus:hover */
+.tab-block .tabs-below > li.active > a,
+.tab-block .tabs-below > li.active > a:hover,
+.tab-block .tabs-below > li.active > a:focus {
+  cursor: default;
+  position: relative;
+  z-index: 12;
+  color: #555555;
+  background: #FFF;
+  border-color: #DDD;
+  border-top: 1px solid #FFF;
+}
+
+/*===============================================
+ Image 
+================================================= */
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+}
+
+/*===============================================
+  The Modal - Image popup
+================================================= */
+    /* Style the Image Used to Trigger the Modal */
+    .myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .myImg:hover {
+        opacity: 0.7;
+    }
+
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Black w/ opacity */
+    }
+
+    /* Modal Content (Image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    /* Caption of Modal Image (Image Text) - Same Width as the Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+    }
+
+    /* Add Animation - Zoom in the Modal */
+    .modal-content,
+    #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+
+    @keyframes zoom {
+        from {
+            transform: scale(0);
+        }
+
+        to {
+            transform: scale(1);
+        }
+    }
+
+    /* The Close Button */
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px) {
+        .modal-content {
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+
+<!-- CONTENT STARTED -->
+
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<section id="content" class="container">
+<!-- START 1 -->
+<div class="page-heading">
+<div class="media clearfix">
+<!-- Gambar Header -->
+  <div class="media-left pr30">
+<a href="#">
+<img id="myImg" class="media-object mw140" src="ainur.jpeg" alt="...">
+</a>
+</div>
+<!-- Close Header div media-left pr30 -->
+ <!-- Media Info Start -->
+<div class="media-body va-m">
+<h2 class="media-heading"> Ainur Najiha
+<small> - Profile</small>
+</h2>
+<p class="lead">Information Technology </p>
+<p> I have built a strong foundation in system development, data analytics, and cybersecurity through hands-on experience and academic training. I am now seeking a challenging role where I can apply my technical skills that allow me to tackle complex problems and stay at the forefront of emerging technologies. </p>
+<div class="media-links">
+<!-- <ul class="list-inline list-unstyled">
+<li>
+<a href="#" title="facebook link">
+<span class="fa fa-facebook-square fs35 text-primary"></span>
+</a>
+</li>
+<li>
+<a href="#" title="twitter link">
+<span class="fa fa-twitter-square fs35 text-info"></span>
+</a>
+</li>
+<li>
+<a href="#" title="google plus link">
+<span class="fa fa-google-plus-square fs35 text-danger"></span>
+</a>
+</li>
+<li class>
+<a href="#" title="phone link">
+<span class="fa fa-phone-square fs35 text-system"></span>
+</a>
+</li>
+<li>
+<a href="#" title="email link">
+<span class="fa fa-envelope-square fs35 text-muted"></span>
+</a>
+</li>
+<li class="hidden">
+<a href="#" title="external link">
+<span class="fa fa-external-link-square fs35 text-muted"></span>
+</a>
+</li>
+</ul> -->
+</div>
+</div>
+</div>
+</div>
+<!-- Media Info Close (ALL DIV BELOW START 1 CLOSEEE) -->
+ <!-- CLOSE 1 -->
+
+ <!-- START 2 -->
+<div class="row">
+<div class="col-md-4">
+
+<!-- About Me -->
+<div class="panel">
+<div class="panel-heading">
+<span class="panel-icon">
+<i class="fa fa-star"></i>
+</span>
+<span class="panel-title"> About Me</span>
+</div>
+<!-- Close Header About Me div panel heading -->
+<!-- Content About Me -->
+<div class="panel-body pn">
+    <table class="table mbn tc-icon-1 tc-med-2 tc-bold-last">
+    <thead>
+    <tr class="hidden">
+    <th class="mw30">#</th>
+    <th>First Name</th>
+    <th>Revenue</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>
+    <span class="fa fa-phone-square text-system"></span>
+    </td>
+    <td>Phone Number</td>
+    <td> 013-6634907 </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="fa fa-envelope-square text-system"></span>
+    </td>
+    <td>Email</td>
+    <td> ainurnajihaa11@gmail.com </td>
+    </tr>
+    <tr>
+    <td>
+    <i class="fa fa-location-arrow"></i>
+    </td>
+    <td>Address</td>
+    <td>Bandar Baru Bangi, Selangor</td>
+    </tr>
+    </tbody>
+    </table>
+</div>
+</div>
+<!-- CLOSE ABOUT ME ALL DIV FOR ABOUT ME IS CLOSE -->
+
+ <!-- MY SKILLS -->
+<div class="panel">
+<!-- Heading for My Skills -->
+<div class="panel-heading">
+<span class="panel-icon">
+<i class="fa fa-trophy"></i>
+</span>
+<span class="panel-title"> My Skills</span>
+</div>
+<!-- Close Heading for My Skills div panel-heading -->
+ <!-- Content My Skills -->
+    <div class="panel-body pb5">
+    <span class="label label-primary mr5 mb10 ib lh15">Languages</span>
+    <span class="label label-info mr5 mb10 ib lh15">HTML</span>
+    <span class="label label-info mr5 mb10 ib lh15">PHP</span>
+    <span class="label label-info mr5 mb10 ib lh15">SQL</span>
+    <span class="label label-info mr5 mb10 ib lh15">Python</span> <br>
+
+    <span class="label label-primary mr5 mb10 ib lh15">Tools</span>
+    <span class="label label-info mr5 mb10 ib lh15">Microsoft Office</span>
+    <span class="label label-info mr5 mb10 ib lh15">MySQL</span>
+    <span class="label label-info mr5 mb10 ib lh15">Maria DB</span> <br>
+
+    <span class="label label-primary mr5 mb10 ib lh15">Platforms</span>
+    <span class="label label-info mr5 mb10 ib lh15">Visual Studio Code</span>
+    <span class="label label-info mr5 mb10 ib lh15">PyCharm</span> <br>
+
+    <span class="label label-primary mr5 mb10 ib lh15">Operating Systems</span>
+    <span class="label label-info mr5 mb10 ib lh15">Windows</span>
+    <span class="label label-info mr5 mb10 ib lh15">Linux</span> <br>
+
+    <span class="label label-primary mr5 mb10 ib lh15">Soft Skills</span>
+    <span class="label label-info mr5 mb10 ib lh15">Adaptibility</span>
+    <span class="label label-info mr5 mb10 ib lh15">Time Management</span>
+    <span class="label label-info mr5 mb10 ib lh15">Teamwork</span> <br>
+    
+    </div>
+  <!-- Close Content My Skills -->
+</div>
+<!-- CLOSE MY SKILLS ALL DIV FOR MY SKILLS ARE CLOSEDDD -->
+
+<!-- Education -->
+<div class="panel">
+<!-- Header Education -->
+<div class="panel-heading">
+<span class="panel-icon">
+<i class="fa fa-pencil"></i>
+</span>
+<span class="panel-title">Education</span>
+</div>
+<!-- Close Header Education div panel heading-->
+ <!-- Content Education -->
+    <div class="panel-body pb5">
+    <!-- Edu 1 -->
+    <h4>Diploma Pengajaran Tvet</h4>
+    <p class="text-muted"> Pusat Latihan Pengajar dan Kemahiran Lanjutan
+    <br> May 2023 - Feb 2024
+    </p>
+    <hr class="short br-lighter">
+    <!-- Edu 2 -->
+    <h4>Diploma Kemahiran Malaysia | Pembangunan Modul Sistem</h4>
+    <p class="text-muted"> Kolej Vokasional Shah Alam
+    <br> 2016 - 2020
+    </p>
+    <hr class="short br-lighter">
+    <!-- Edu 3 -->
+    <h4>Diploma Teknologi Sistem Pengurusan Pangkalan Data dan Aplikasi Web</h4>
+    <p class="text-muted pb10"> Kolej Vokasional Shah Alam
+    <br> 2016 - 2020 | CGPA: 3.72
+    </p>
+    </div>
+<!-- Close Content Education -->
+</div>
+</div>
+<!-- CLOSE 2 ALL DIVs ARE CLOSED EXCEPT div row -->
+
+<!-- START 3 -->
+ <!-- TAB -TAB -TAB :( -->
+  <!-- Tab Navigation -->
+<div class="col-md-8">
+<div class="tab-block">
+<ul class="nav nav-tabs">
+<li class="active">
+<a href="#tab1" data-toggle="tab">Work Experience</a>
+</li>
+<li>
+<a href="#tab2" data-toggle="tab">Certificate</a>
+</li>
+<li>
+<a href="#tab3" data-toggle="tab">Project</a>
+</li>
+</ul>
+<!-- Close tab navigatiion no div close -->
+
+<!-- Start content navigation Work Experience (WE) -->
+<div class="tab-content p30" style="height: 730px;">
+<div id="tab1" class="tab-pane active">
+
+<!-- Work Experince 4 -->
+<div class="media">
+<a class="pull-left"> <img class="media-object mn thumbnail mw50" src="ins.png" alt="Instructor"> </a>
+<div class="media-body">
+<h4 class="media-heading"> Instructor (Internship)</h4>
+<span class="text-light">Institut Latihan Perindustrian | Kuala Langat</span> <br>
+<span class="text-light">September 2023 - February 2024</span>
+<div class="media-list"> 
+  <ul >
+    <li>Build Written Instructional Material (WIM) documents.</li>
+    <li>Give lectures and guide students through interactive lessons.</li>
+    <li>Guide students on the methods of applying learning materials during the completion of coursework.</li>
+  </ul>
+</div>
+</div>
+</div>
+<!-- End WE 4 -->
+
+<!-- Work Experience 3 -->
+<div class="media">
+<a class="pull-left"> <img class="media-object mn thumbnail mw50" src="clerk.png" alt="Instructor"> </a>
+<div class="media-body">
+<h4 class="media-heading"> Clerk and Sales Advisor</h4>
+<span class="text-light">Addin Tryes (M) Group Sdn. Bhd. | Sabak Bernam</span> <br>
+<span class="text-light">July 2022 - November 2022</span>
+<div class="media-list"> 
+  <ul >
+    <li>Run and operate cash register for the business.</li>
+    <li>Maintain filing and documentation, database systems and inventories.</li>
+    <li>Advise customers on the product and services according to their taste and budget.</li>
+  </ul>
+</div>
+</div>
+</div>
+<!-- End WE 3 -->
+
+<!-- Work Experience 2 -->
+<div class="media">
+<a class="pull-left"> <img class="media-object mn thumbnail mw50" src="ckfc.png" alt="Instructor"> </a>
+<div class="media-body">
+<h4 class="media-heading"> Cashier and Customer Service</h4>
+<span class="text-light">QSR Stores Sdn. Bhd. | Sabak Bernam </span> <br>
+<span class="text-light">April 2021 - January 2022</span>
+<div class="media-list"> 
+  <ul >
+    <li>Ensure restaurant cleanliness.</li>
+    <li>Work together with the kitchen team in food preparation.</li>
+    <li>Perform duty as front service crew.</li>
+  </ul>
+</div>
+</div>
+</div>
+<!-- End WE 2  -->
+
+<!-- Work Experience 1 -->
+<div class="media">
+  <a class="pull-left"> <img class="media-object mn thumbnail mw50" src="jp.png" alt="Instructor"> </a>
+  <div class="media-body">
+  <h4 class="media-heading"> Junior Programmer (Internship)</h4>
+  <span class="text-light">Senang.La Sdn. Bhd. | Subang Jaya </span> <br>
+  <span class="text-light">January 2020 - Mac 2020</span>
+  <div class="media-list"> 
+    <ul >
+      <li>Assist developer in building The Patriots System.</li>
+      <li>Create login modul for The Patriots System.</li>
+      <li>Meeting with client for The Patriot System progress.</li>
+    </ul>
+  </div>
+  </div>
+  </div>
+<!-- End WE 1 -->
+
+
+<!-- TEST -->
+<!-- <div class="media mt25">
+<a class="pull-left" href="#"> <img class="media-object mn thumbnail thumbnail-sm rounded mw40" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="..."> </a>
+<div class="media-body mb5">
+<h5 class="media-heading mbn">Simon Rivers Posted
+<small> - 3 hours ago</small>
+</h5>
+<p> Omg so freaking sweet dude.</p>
+<div class="media pb10">
+<a class="pull-left" href="#"> <img class="media-object mn thumbnail thumbnail-sm rounded mw40" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="..."> </a>
+<div class="media-body mb5">
+<h5 class="media-heading mbn">Jessica Wong
+<small> - 3 hours ago</small>
+</h5>
+<p>Omgosh I'm in love</p>
+</div>
+</div>
+<div class="media mtn">
+<a class="pull-left" href="#"> <img class="media-object mn thumbnail thumbnail-sm rounded mw40" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="..."> </a>
+<div class="media-body mb5">
+<h5 class="media-heading mbn">Jessica Wong
+<small> - 3 hours ago</small>
+</h5>
+<p>Omgosh I'm in love</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="media mt25">
+<a class="pull-left" href="#"> <img class="media-object thumbnail mw50" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="..."> </a>
+<div class="media-body">
+<h5 class="media-heading mb20">Simon Rivers Posted
+<small> - 3 hours ago</small>
+</h5>
+<img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="mw140 mr25 mb20">
+<img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="mw140 mr25 mb20">
+<img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="mw140 mb20">
+<div class="media-links">
+<span class="text-light fs12 mr10">
+<span class="fa fa-thumbs-o-up text-primary mr5"></span> Like </span>
+<span class="text-light fs12 mr10">
+<span class="fa fa-share text-primary mr5"></span> Share </span>
+<span class="text-light fs12 mr10">
+<span class="fa fa-floppy-o text-primary mr5"></span> Save </span>
+<span class="text-light fs12 mr10">
+<span class="fa fa-comment text-primary mr5"></span> Comment </span>
+</div>
+</div>
+</div> -->
+</div>
+<!-- End of Test -->
+ <!-- CLOSE DIV EXCEPT col-md-8 -->
+  <!-- CLOSE TAB 1 WORK EXPERIENCE -->
+
+<!-- START TAB 2  -->
+<!-- <div class="col-md-8"> -->
+<!-- <div class="tab-content p30" style="height: 730px;"> -->
+<div id="tab2" class="tab-pane">
+  <!-- <div id="tab2" class="tab-pane active"> -->
+  <div class="media">
+    <div class="media mt25">
+      <a class="pull-left" href="#"> <img class="media-object thumbnail mw40" src="star.png" alt="Cert"> </a>
+      <div class="media-body">
+      <h4 class="media-heading">Linux for Web Server <small> Status : Completed (23 - 25 July 2024)</small>
+      </h4>
+      <div class="media-list"> 
+        <ul >
+          <li>Install Linux using Virtual Box.</li>
+          <li>Configure Linux system.</li>
+          <li>Open Linux in localhost.</li>
+        </ul>
+        <img src="lws.jpg" id="" class="myImg mw120" onclick="Image(event)" alt="Linux for Web Server">
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="media">
+    <div class="media mt25">
+        <a class="pull-left" href="#"> <img class="media-object thumbnail mw40" src="star.png" alt="Cert"> </a>
+        <div class="media-body">
+        <h4 class="media-heading">Introduction to Linux Forensics <small> Status : Completed (27 July 2024)</small>
+        </h4>
+        <div class="media-list"> 
+          <ul >
+            <li>Know DFIR.</li>
+            <li>Review incident response.</li>
+            <li>Make report.</li>
+          </ul>
+          <img src="lf.jpg" id="" class="myImg mw120" onclick="Image(event)" alt="Introduction to Linux Forensics">
+        </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="media">
+    <div class="media mt25">
+      <a class="pull-left" href="#"> <img class="media-object thumbnail mw40" src="star.png" alt="Cert"> </a>
+      <div class="media-body">
+      <h4 class="media-heading">Python Fundamentals <small> Status : Completed ( 6 -8 August 2024)</small>
+      </h4>
+      <div class="media-list"> 
+        <ul >
+          <li>Installing Python.</li>
+          <li>Using Pycharm platform.</li>
+          <li>Using Pyhon data types.</li>
+        </ul>
+        <img src="pf.jpg" id="" class="popup_image mw120" alt="Python Fundamentals">
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+  
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+  
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+  </div>
+
+<!-- CLOSE TAB 2 -->
+
+
+
+<div id="tab3" class="tab-pane">
+  <div class="media">
+  <div class="media mt25">
+    <a class="pull-left" href="#"> <img class="media-object mn thumbnail thumbnail-sm rounded mw40" src="project.png" alt="..."> </a>
+    <div class="media-body mb5">
+    <h5 class="media-heading mbn">E-Mesyuarat System
+    <small> - 2019</small>
+    </h5>
+    <p> This system was my final year project in 2019 while in Kolej Vokasional Shah Alam. Objectives of the system making it easier access to make meeting room reservation.Here the link to the project - </p>
+    <a href="emesyuarat/index.php">Click here!</a>
+</div>
+  </div>
+
+
+<div id="tab4" class="tab-pane"></div>
+
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+// 	// Get the modal
+// var modal = document.getElementById("myModal");
+
+// // Get the image and insert it inside the modal - use its "alt" text as a caption
+// var modalImg = document.getElementById("modal-img");
+// var captionText = document.getElementById("caption");
+
+// document.addEventListener("click", (e) => {
+//   const elem = e.target;
+//   if (elem.id==="myImg") {
+//     modal.style.display = "block";
+//     modalImg.src = elem.dataset.biggerSrc || elem.src;
+//     captionText.innerHTML = elem.alt; 
+//   }
+// })
+
+// // Get the <span> element that closes the modal
+// var span = document.getElementsByClassName("close")[0];
+
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function() { 
+//   modal.style.display = "none";
+// }
+
+// function popup() {
+//         w2popup.open({
+//             title: 'Image',
+//             // body: document.getElementById("myImg"),
+//         });
+//     }
+
+
+// $(document).ready(function() {
+
+// $(".popup_image").on('click', function() {
+//   w2popup.open({
+//     title: 'Certificate',
+//     body: '<div style="width:100px; height:100px; border-radius:4px;"><img src="' + $(this).attr('src') + '"></img></div>'
+//   });
+// });
+
+// });
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    // var img = $(".myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    function Image(event)  {    
+        modal.style.display = "block";
+        modalImg.src = event.target.src;
+        captionText.innerHTML = event.target.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+</script>
+</body>
+</html>
